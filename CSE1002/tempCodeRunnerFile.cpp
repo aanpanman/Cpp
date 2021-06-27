@@ -1,0 +1,19 @@
+               {
+                    area1=-1*area1;
+                }
+                if(area1>area)
+                {
+                    area=area1;
+                    a=i;
+                    b=j;
+                    c=k;
+                }
+            }
+        }
+    }
+    cout<<area;
+    cout<<"\n";
+    cout<<x[c]<<"\t"<<y[c]<<"\n";
+    cout<<x[b]<<"\t"<<y[b]<<"\n";
+    cout<<x[a]<<"\t"<<y[a]<<"\n";
+}
